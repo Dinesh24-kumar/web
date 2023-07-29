@@ -1,0 +1,260 @@
+body{
+    height: 100%;
+    width:100%;
+    padding:0px;
+    border:0px;
+    margin-top:20px ;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aliceblue;
+   
+}
+/*header{
+    background-image: url("im4.jpg");
+    background-repeat: no-repeat;
+}*/
+.container{
+    width:96%;
+}
+#p1{
+    color: dodgerblue;
+}
+.span1{
+    float: right;
+}
+.a{
+    text-decoration: none;
+    color:black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.a:hover{
+    border:antiquewhite 2px solid;
+    background-color:antiquewhite;
+    border-radius: 15px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.content{
+    display:inline-block;
+    width:25%;
+    height:auto;
+    position: relative;
+    top:8%;
+    left:15%;
+    font-size: small;
+}
+#h2{
+    font-weight: bold;
+    font-size:xx-large;
+}
+#a{
+    color:black;
+}
+input{
+    border:2px white solid;
+    border-radius: 7px;
+    color:black;
+}
+.article{
+   text-align: center;
+}
+#p2{
+    font-size:medium;
+}
+#h3{
+    font-size: x-large;
+}
+.section{
+    width:60%;
+}
+.span{
+    display: inline-block;
+    width:200px;
+    height:200px;
+    margin-top:25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    border:2px whitesmoke solid;
+    border-radius: 10px;
+    padding: 20px;
+    background-color:rgb(238, 244, 250);
+    position: relative;
+    left:25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.span:hover{
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.58);
+}
+p{
+    font-size: small;
+}
+.article1{
+    position: absolute;
+    display: inline-block;
+    height: 200px;
+    width:650px;
+    left:30%;
+    padding:80px;
+}
+#btn1{
+    border:2px black solid;
+    padding:15px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+.img{
+    font-size: medium;
+    margin:20px;
+    position: relative;
+    left:20%;
+    padding:3px;
+}
+.img:hover{
+    background-color:aliceblue;
+    border:2px black solid;
+    border-radius: 40px;
+    color:blue;
+    font-size: small;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.18);
+}
+.slider{
+
+    position:absolute;
+    left:70%;
+    top:15%;
+}
+.image-zoom-container {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    left:20%
+  }
+.zoom-image{
+    margin:30px;
+    transition: transform 0.3s ease;
+    border:2px lightgray solid;
+    border-radius: 10px;
+}
+.zoom-image:hover {
+    transform: scale(1.2);
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.18);
+  }
+#btn2{
+    position: relative;
+    float:right;
+    right:5%;
+}
+.profile{
+    height:245px;
+    width: 80%;
+    border:1px wheat solid;
+    position: relative;
+    left:8%;
+}
+.rating {
+    display: inline-block;
+    position: relative;
+    left:10%;
+    bottom:25%;
+  }
+  .rating input {
+    display: none;
+  }
+  .rating label {
+    font-size: 40px;
+    color: lightgray;
+    cursor: pointer;
+  }
+  .rating input:checked + label {
+    color: orange;
+  }
+.contact
+{
+    border:2px darkblue solid;
+    height:100px;
+    width:50%;
+    position: relative;
+    left:20%;
+    background-color: darkblue;
+    color: white;
+    border-radius: 50px;
+}
+.search{
+    position: relative;
+    float: right;
+    right:50px;
+    bottom:50%;
+}
+.move{
+    position: relative;
+    left:6%;
+}
+.footer
+{
+    height:250px;
+    width:100%;
+    background-color: rgb(213, 207, 207);
+    color:black;
+}
+#logo
+{
+    position: relative;
+    top:10%;
+    left:5%;
+}
+#copyrights
+{
+    position: relative;
+    left:5%;
+}
+.footer-links{
+    position: relative;
+    left:40%;
+    bottom:50%;
+   
+}
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-links a {
+    color:black;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  #foot{
+    position: relative;
+    left:60%;
+    bottom:105%;
+  }
+  .foot{
+    position: relative;
+    left:80%;
+    bottom:150%;
+  }
+  address{
+    font-size:xx-large;
+    font-family: initial;
+    font-weight: bold;
+  }
+  #copy{
+    position: relative;
+    bottom:30%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 89%;
+    font-style: italic;
+    text-decoration:line-through;
+  }
+  
+  
